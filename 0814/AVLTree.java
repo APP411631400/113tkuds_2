@@ -170,6 +170,16 @@ public class AVLTree {
         printInOrder(root);
         System.out.println();
     }
+
+    public int getHeight() {
+        return getHeight(root);
+    }
+
+    public AVLNode getRoot() {
+        return root;
+    }
+
+
     
     private void printInOrder(AVLNode node) {
         if (node != null) {
